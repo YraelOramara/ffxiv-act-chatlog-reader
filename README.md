@@ -6,6 +6,7 @@ Read log output from Advanced Combat Tracker for FFXIV and convert them into rea
 ## Requirements:
 * FFXIV (duh)
 * [AdvancedCombatTracker](https://github.com/EQAditu/AdvancedCombatTracker)
+* A shell compatible with Bash >= 4.0
 * [ripgrep](https://github.com/BurntSushi/ripgrep)
 
 ## Usage:
