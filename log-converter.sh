@@ -61,7 +61,7 @@ convert() {
     # Clean up presentation
     echo "$TEMP2" | sed 's/|/ | /g' > "${DESTINATION}/${OUTPUT}"
 
-    echo -e "Saved to:\n    ./${DESTINATION}/${OUTPUT}"
+    echo -e "Saved to:\n    ${DESTINATION}/${OUTPUT}"
 }
 
 
