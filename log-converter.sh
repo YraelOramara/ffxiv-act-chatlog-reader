@@ -28,7 +28,8 @@ channels=(
     ["0025"]="CWLS1"
     ["000[cd]"]="Whisper"
     ["0044"]="NPC"
-    ["0039"]="System"
+    ["003."]="System"
+    ["004c"]="Music"
 )
 
 
