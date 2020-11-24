@@ -52,7 +52,7 @@ convert() {
     echo -e "\nProcessing ${INPUT}"
 
     # Get only chat logs (ignore combat logs)
-    TEMP1=$(rg '.*\|00.*\|' $INPUT |\
+    TEMP1=$(rg '.*\|00..\|' $INPUT |\
     # Filter to timestamp,channel,user,message
     cut -d'|' -f 2-5 |\
     # Trim down timestamps
